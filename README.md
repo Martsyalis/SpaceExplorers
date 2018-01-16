@@ -2,7 +2,7 @@
 # Space Explorers
 [![Build Status](https://travis-ci.org/ZacIsLate/SpaceExplorers.svg?branch=master)](https://travis-ci.org/ZacIsLate/SpaceExplorers)
 
-Command Line, choose your own adventure game that lets you explore the galaxzy and encounter quirky charecters in the ship of your chosing. 
+CLI based, choose your own adventure game that lets you explore the galaxzy and encounter quirky charecters in the ship of your chosing. 
 
 # Tech Used
 Inquirer npm package for client side command line gameplay.  
