@@ -2,6 +2,31 @@
 # SpaceBack_enders
 [![Build Status](https://travis-ci.org/ZacIsLate/SpaceExplorers.svg?branch=master)](https://travis-ci.org/ZacIsLate/SpaceExplorers)
 
+# SpaceExplorers
+Command Line, choose your own adventure game that lets you explore the galaxzy and encounter qorky charecters in the ship of your chosing. 
+
+## Requirements
+
+MongoDB, latest stable version of Node.js 
+
+## Installation   
+
+1. Clone repository and change directory.
+
+    ```
+    git clone https://github.com/martsyalis/travel-share 
+    ```
+
+2. Install dependencies.
+
+    ```
+    npm install
+    ```
+3. Run the game 
+    ```
+    npm install
+    ```
+
 Coding consistency
 1. good: fn()  bad: fn ()
 2. good: map.(a => a * 2);
