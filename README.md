@@ -1,9 +1,15 @@
 
-# SpaceBack_enders
+# Space Explorers
 [![Build Status](https://travis-ci.org/ZacIsLate/SpaceExplorers.svg?branch=master)](https://travis-ci.org/ZacIsLate/SpaceExplorers)
 
-# SpaceExplorers
-Command Line, choose your own adventure game that lets you explore the galaxzy and encounter qorky charecters in the ship of your chosing. 
+CLI based, choose your own adventure game that lets you explore the galaxzy and encounter quirky charecters in the ship of your chosing. 
+
+# Tech Used
+Inquirer npm package for client side command line gameplay.  
+Restfull Express server with json web token for user authenitcation. 
+Mongoose for schema managment of MongoDB.
+Heroku for db storage. 
+
 
 ## Requirements
 
@@ -24,10 +30,10 @@ MongoDB, latest stable version of Node.js
     ```
 3. Run the game 
     ```
-    npm install
+    node cli
     ```
 
-Coding consistency
+## Coding consistency
 1. good: fn()  bad: fn ()
 2. good: map.(a => a * 2);
     bad: map.((a)=> a*2);
