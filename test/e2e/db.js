@@ -1,12 +1,13 @@
 const connect = require('../../lib/connect');
-const url = 'mongodb://localhost:27017/space-sim-test';
 const mongoose = require('mongoose');
 
-before(() => connect(url));
+before(() => {
+  connect();
+});
 after(() => mongoose.connection.close());
 
 module.exports = {
-    drop() {
-        return mongoose.connection.dropDatabase();
-    }
+  drop() {
+    return mongoose.connection.dropDatabase();
+  }
 };
